@@ -1,3 +1,8 @@
+/**
+ * A simple int class whcih is capable of doing pre and post increment and decrement
+ * 
+ * @author jipesh
+ */
 import scala.language.postfixOps //otherwise it will throw warning when trying to do num++
 
 type int = SpecialInt
@@ -28,7 +33,7 @@ class SpecialInt(value: Int) {
   }
 }
 
-object SpecialInt {
+object SpecialInt{
 
   //pre-increment
   def ++(n: int): int = {
